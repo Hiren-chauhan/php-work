@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins','Segoe UI','Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+  overflow-x: hidden;
+}
+#home{
+  display: flex;
+  align-items: center;
+  background-image: url('/php-work/E-com/assets/images/home-banner.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  transform: scaleX(-1);
+}
+.navbar{
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  z-index: 9;
+}
+#home .container{
+  transform: scaleX(-1);
+}
+h1 .heiglight-text{
+  font-style: 32px;
+  text-transform: uppercase;
+  color: white;
+}
+.ec-btn{
+  background-color: black;
+  border: 2px solid black;
+  text-transform: uppercase;
+  font-style: 16px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 1px;
+  box-shadow: none;
+  border-radius: 0px;
+}
+.ec-btn:hover{
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+.one{
+  display: flex;
+  position: relative;
+  align-content: center;
+  overflow: hidden;
+}
+.one img{
+  background-position: center;
+}
+.one>.details{
+  position: absolute;
+  vertical-align: middle;
+  background-color: rgba(0, 0, 0, 0.5) ;
+  transition: 0.4s ease;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: rgb(248, 180, 180);
+ }
+ .one>.details:hover{
+  background-color: rgb(0, 0, 0, 0.9);
+  transform: scale(1.09);
+  overflow: hidden;
+ }
+ .product{
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+ }
+ .product img{
+  transition: 0.4s all;
+ }
+ .product:hover img{
+  opacity: 0.8;
+ }
+ .product .star{
+  color: rgb(207, 207, 0);
+ }
+ .product button{
+  visibility: hidden;
+  transition: 0.4s all;
+ }
+ .product:hover button{
+  visibility: visible;
+ }
+ #banner{
+  background-image: url('/php-work/E-com/assets/images/banner1.webp');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ /* footer */
+ footer {
+  color: white;
+  background-color: #222222;
+ }
+ footer li{
+  list-style: none;
+  text-decoration: none;
+ }
+ footer li a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+ }
+ footer li a:hover{
+  color: antiquewhite;
+ }
+ .copyright{
+  text-align: center;
+ }
+ .sm-links a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+ }
+ .sm-links a:hover{
+  color: antiquewhite;
+ }
+ /* pagination */
+ .pagination li a{
+  color:black;
+  border-color: black;
+ }
+ .pagination li:hover a, .pagination li a.active, .pagination li.active{
+  color:white;
+  border-color: black;
+  background-color: black;
+ }
+ .pagination li.disable{
+  background-color: #222222;
+  border-color: #222222;
+  color: beige;
+ }
+ /* single product page */
+ .small-img-group{
+  display: flex;
+  justify-content: space-between;
+ }
+ .small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
+ }
+ .small-img{
+  width: 100%;
+ }
+ #single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+ }
+ #single-product input:focus{
+  outline: none;
+ }

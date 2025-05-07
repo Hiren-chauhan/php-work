@@ -172,3 +172,50 @@ h1 .heiglight-text{
  #single-product input:focus{
   outline: none;
  }
+ /* cart */
+ #cart table{
+  width: 100%;
+  border-collapse: collapse;
+ }
+ #cart .product-info{
+  display: flex;
+  flex-wrap:wrap;
+ }
+ #cart table th{
+  color: white;
+  background-color: #222222;
+  font-size: 16px;
+  padding: 5px 10px;
+ }
+ #cart table td{
+  padding: 5px 10px;
+ }
+ .product-info img{
+  width: 80px;
+  height: 80px;
+  margin: 0px 10px;
+ }
+ .quantity{
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+ }
+ .cart-total{
+  display: flex;
+  justify-content: end;
+ }
+ .cart-total table{
+  width: 100%;
+  max-width: 512px;
+  border-top: 5px solid black;
+ }
+ .check-btn{
+  text-align: right;
+ }
+ /* login */
+ #login-form{
+  width: 50%;
+  /* text-align: center; */
+ }

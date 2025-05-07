@@ -8,6 +8,12 @@
 body{
   overflow-x: hidden;
 }
+hr {
+  width: 50px;
+  /* height: 5px; */
+  color: #222222;
+  border-width: 5px;
+}
 #home{
   display: flex;
   align-items: center;
